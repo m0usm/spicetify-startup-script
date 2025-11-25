@@ -37,16 +37,18 @@ The two main files used in this setup are:
 
 1.  **Download:** Download the [`setup_autostart.bat`](setup_autostart.bat) file from this repository (click the file, then click "Download Raw File").
 
-2.  **CRITICAL Confirmation Step (Type 'Y'):**
-    When the script is executed, a PowerShell window may briefly appear asking you to confirm the installation of the **NuGet Package Provider** or similar dependencies. **You MUST type `Y` and press Enter** to allow the script to proceed with the Spicetify installation. This step is mandatory for the setup to complete.
-
-3.  **Execute as Administrator (Recommended Method):**
+2.  **Execute as Administrator:**
     * Right-click the downloaded `setup_autostart.bat` file and select **"Run as administrator"**.
+
+3.  **CRITICAL INTERRUPTION: Type 'Y' and Enter**
+    Immediately after execution, a PowerShell window may appear asking to install a necessary provider (e.g., **NuGet**).
+    
+    * **You MUST type `Y` and press Enter** to allow the script to proceed with the Spicetify installation. This manual confirmation is mandatory.
 
 4.  **Alternative Execution via Terminal (Drag & Drop):**
     * Open the Command Prompt (`cmd`) or PowerShell **as Administrator**.
     * **Drag the `setup_autostart.bat` file** into the Terminal window to automatically insert its full path.
-    * Press **Enter** to run the script.
+    * Press **Enter** to run the script (and perform the **CRITICAL INTERRUPTION** if prompted).
 
 5.  **Finished:** The routine is set up. The script will now execute automatically upon every subsequent user login.
 
