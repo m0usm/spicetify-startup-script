@@ -1,4 +1,4 @@
-![Spicetify Setup Banner](./images/banner.png)
+![Spicetify Setup Banner](./img/banner.png)
 
 # Spicetify CLI Auto-Install for Windows
 
