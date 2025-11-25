@@ -38,9 +38,9 @@ The two main files used in this setup are:
     * Right-click the downloaded `setup_autostart.bat` file and select **"Run as administrator"**.
 
 3.  **CRITICAL INTERRUPTION: Type 'Y' and Enter**
-    Immediately after execution, a PowerShell window may appear asking to install a necessary provider (e.g., **NuGet**).
+    Immediately after execution, a PowerShell window may appear asking to install a **missing component** required for **Spicetify features (such as the Marketplace)**.
     
-    * **You MUST type `Y` and press Enter** to allow the script to proceed with the Spicetify installation. This manual confirmation is mandatory.
+    * **You MUST type `Y` and press Enter** to allow the script to proceed. This manual confirmation is mandatory.
 
 4.  **Alternative Execution via Terminal (Drag & Drop):**
     * Open the Command Prompt (`cmd`) or PowerShell **as Administrator**.
@@ -53,7 +53,7 @@ The two main files used in this setup are:
 
 ## ⚠️ Important Notes
 
-### Antivirus/Malwarebytes Warning (False Positive)
+### **CRITICAL WARNING: Antivirus/Malwarebytes (False Positive)**
 
 Due to the nature of the script—downloading and executing remote code via PowerShell (`iwr ... | iex`)—your antivirus software (such as Malwarebytes) may flag the `setup_autostart.bat` file or the execution process as a **Generic Payload** or **Suspicious Behavior**.
 
@@ -70,7 +70,7 @@ To stop the automatic execution, simply delete the created shortcut:
 
 1.  Press `Win` + `R` and type `shell:startup` and press Enter.
 2.  Delete the shortcut named **`Spicetify Autostart.lnk`**.
-3.  Optional, you can also delete the `C:\Scripts` folder to remove the script files.
+3.  Optionally, you can also delete the `C:\Scripts` folder to remove the script files.
 
 ---
 
