@@ -2,6 +2,8 @@
   <img src="./img/banner.png" alt="Spicetify Setup Banner" width="35%"/>
 </p>
 
+---
+
 # Spicetify CLI Auto-Install for Windows
 
 **An automated Batch script for Windows designed to recurrently install and update the Spicetify CLI every time a user logs into their system.**
