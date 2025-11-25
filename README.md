@@ -1,4 +1,6 @@
-![Spicetify Setup Banner](./img/banner.png)
+<p align="center">
+  <img src="./images/banner.png" alt="Spicetify Setup Banner" width="55%"/>
+</p>
 
 # Spicetify CLI Auto-Install for Windows
 
