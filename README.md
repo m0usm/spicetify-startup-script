@@ -1,3 +1,5 @@
+![Spicetify Setup Banner](./images/banner.png)
+
 # Spicetify CLI Auto-Install for Windows
 
 **An automated Batch script for Windows designed to recurrently install and update the Spicetify CLI every time a user logs into their system.**
