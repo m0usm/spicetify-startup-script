@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/banner.png" alt="Spicetify Setup Banner" width="55%"/>
+  <img src="./img/banner.png" alt="Spicetify Setup Banner" width="55%"/>
 </p>
 
 # Spicetify CLI Auto-Install for Windows
