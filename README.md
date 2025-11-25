@@ -8,8 +8,6 @@
 
 **An automated Batch script for Windows designed to recurrently install and update the Spicetify CLI every time a user logs into their system.**
 
-This script is ideal for ensuring that your Spicetify installation is automatically corrected or brought up to date after any Spotify or major system update.
-
 ## 🚀 How It Works
 
 The script automates the following steps to execute the official installation command (`iwr ... | iex`) **silently** on every system startup:
@@ -31,7 +29,6 @@ The two main files used in this setup are:
 ### Prerequisites
 
 * Administrator rights for the initial setup.
-* An active internet connection during the login process.
 
 ### Setup Instructions (How to Run)
 
