@@ -35,12 +35,7 @@ The two main files used in this setup are:
 
 ### Setup Instructions (How to Run)
 
-1.  **Download Script via Terminal:**
-    Open PowerShell or CMD and run the following command to download the installer directly to your current folder:
-
-    ```powershell
-    iwr -uri https://raw.githubusercontent.com/m0usm/spicetify-startup-script/refs/heads/main/setup_autostart.bat -OutFile "setup_autostart.bat"
-    ```
+1.  **Download:** Download the [`setup_autostart.bat`](setup_autostart.bat) file from this repository (click the file, then click "Download Raw File").
 
 2.  **Execute as Administrator (Recommended Method):**
     * Right-click the downloaded `setup_autostart.bat` file and select **"Run as administrator"**.
@@ -76,9 +71,6 @@ To stop the automatic execution, simply delete the created shortcut:
 
 ---
 
-## 📜 License
-
-This project is licensed under the **[MIT License](LICENSE)**.
 ## 📜 License
 
 This project is licensed under the **[MIT License](LICENSE)**.
