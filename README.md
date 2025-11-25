@@ -1,8 +1,3 @@
-Absolut! Hier ist die englische Version der vollständigen README.md-Vorlage.
-
-📄 README.md (English Template)
-Markdown
-
 # Spicetify CLI Auto-Install for Windows
 
 **An automated Batch script for Windows designed to recurrently install and update the Spicetify CLI every time a user logs into their system.**
