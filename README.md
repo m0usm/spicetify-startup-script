@@ -37,36 +37,33 @@ The two main files used in this setup are:
 
 1.  **Download:** Download the [`setup_autostart.bat`](setup_autostart.bat) file from this repository (click the file, then click "Download Raw File").
 
-2.  **Execute as Administrator (Recommended Method):**
+2.  **CRITICAL Confirmation Step (Type 'Y'):**
+    When the script is executed, a PowerShell window may briefly appear asking you to confirm the installation of the **NuGet Package Provider** or similar dependencies. **You MUST type `Y` and press Enter** to allow the script to proceed with the Spicetify installation. This step is mandatory for the setup to complete.
+
+3.  **Execute as Administrator (Recommended Method):**
     * Right-click the downloaded `setup_autostart.bat` file and select **"Run as administrator"**.
 
-3.  **Alternative Execution via Terminal (Drag & Drop):**
+4.  **Alternative Execution via Terminal (Drag & Drop):**
     * Open the Command Prompt (`cmd`) or PowerShell **as Administrator**.
     * **Drag the `setup_autostart.bat` file** into the Terminal window to automatically insert its full path.
     * Press **Enter** to run the script.
 
-4.  **Finished:** The routine is set up. The script will now execute automatically upon every subsequent user login.
+5.  **Finished:** The routine is set up. The script will now execute automatically upon every subsequent user login.
 
 ---
 
 ## ⚠️ Important Notes
 
-### PowerShell Prompt during Setup
-
-**When running the `setup_autostart.bat` script, a PowerShell window may briefly appear.**
-
-This window might ask you to confirm the installation of the **NuGet Package Provider** or similar necessary dependencies. If prompted, you **must type `Y` and press Enter** to allow the script to proceed with the Spicetify installation. This is a standard Windows security prompt.
-
-### Security
-
-This script executes a command that downloads code from an external server and runs it immediately (`iwr -useb ... | iex`). Ensure you trust the source (Spicetify CLI) before running the automated script, and consider reviewing the contents of the official installation script periodically.
-
 ### Antivirus/Malwarebytes Warning (False Positive)
 
 Due to the nature of the script—downloading and executing remote code via PowerShell (`iwr ... | iex`)—your antivirus software (such as Malwarebytes) may flag the `setup_autostart.bat` file or the execution process as a **Generic Payload** or **Suspicious Behavior**.
 
-* This is a **False Positive** because the script is only executing the official Spicetify installation command.
+* This is generally a **False Positive** because the script is only executing the official Spicetify installation command.
 * If you trust the Spicetify source, you can safely **add an exclusion** for the `setup_autostart.bat` file in your antivirus program before running it.
+
+### Security
+
+This script executes a command that downloads code from an external server and runs it immediately (`iwr -useb ... | iex`). Ensure you trust the source (Spicetify CLI) before running the automated script, and consider reviewing the contents of the official installation script periodically.
 
 ### Uninstallation
 
